@@ -21,7 +21,7 @@ public class EvenOrOddList {
              System.out.println(number + " is odd.");
          }
     }
-
+scanner.close();
 
  }
 }
