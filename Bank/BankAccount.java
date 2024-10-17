@@ -1,6 +1,6 @@
 package Bank;
 
-public class BankAccount {
+class BankAccount {
     private String accountNumber;
     private double balance;
 
@@ -15,7 +15,7 @@ public class BankAccount {
 
     public double getBalance() {
         return balance;
-    }
+    } 
 
     public boolean deposit(double amount) {
         if (amount > 0) {
